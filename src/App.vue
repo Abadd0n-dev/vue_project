@@ -1,19 +1,24 @@
 <template>
   <div id="app">
-    <HomePage></HomePage>
+    <ProjectPage />
 
-    <BlogPage></BlogPage>
+    <HomePage />
 
-    <BlogDetailsPage></BlogDetailsPage>
+    <BlogPage />
+
+    <BlogDetailsPage />
   </div>
 </template>
 
 <script>
 
 import HomePage from './pages/HomePage.vue'
+
 import BlogPage from './pages/BlogPage.vue'
+
 import BlogDetailsPage from './pages/BlogDetailsPage.vue'
-import ProductDetails from './task/ProductDetails.vue'
+
+import ProjectPage from './pages/ProjectPage.vue'
 
 export default {
   name: 'App',
@@ -24,10 +29,10 @@ export default {
 
     BlogDetailsPage,
 
-    ProductDetails
+    ProjectPage
+
   }
 }
-
 </script>
 
 <style lang="scss">
